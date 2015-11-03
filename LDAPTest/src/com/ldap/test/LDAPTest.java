@@ -17,7 +17,9 @@ public class LDAPTest {
      */
     public static void main(String[] args) throws NamingException {
         
-        final  String ldapAdServer = ApplicationConstant.LDAP_SERVER;
+        
+    	
+    	final  String ldapAdServer = ApplicationConstant.LDAP_SERVER;
         final String ldapSearchBase =ApplicationConstant.LDADP_SEARCH_BASE;
         final String ldapUsername = ApplicationConstant.LDAP_USERNAME;
         final String ldapPassword = ApplicationConstant.LDAP_PASSWORD;
